@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(45deg, #42a5f5, #478ed1);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero .cta-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #478ed1;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background-color: #f1f1f1;
+}
+
+/* Accordion */
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+    background-color: #f9f9f9;
+}
+
+/* Franchise Benefits Table */
+.benefits-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.benefits-table th, .benefits-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.benefits-table th {
+    background-color: #478ed1;
+    color: #fff;
+}
+
+.benefits-table td i {
+    margin-right: 10px;
+}
+
+/* Network Reach */
+.network-reach {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.network-reach .network-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* Partner Logos */
+.logos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.partner-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.partner-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode .hero {
+    background: linear-gradient(45deg, #1e1e1e, #343434);
+}
+
+body.dark-mode .cta-button {
+    background-color: #555;
+    color: #fff;
+}
+
+body.dark-mode .cta-button:hover {
+    background-color: #777;
+}
+
+/* Scroll-to-top Button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #478ed1;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#scrollTopBtn:hover {
+    background-color: #3578b2;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiplee Franchise Opportunity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Scroll-to-top button -->
+    <button id="scrollTopBtn" onclick="scrollToTop()">⬆</button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Join the Shiplee Franchise</h1>
+        <p>Be part of a growing network and build your business with Shiplee!</p>
+        <button class="cta-button" onclick="window.location.href='#'">Get Started</button>
+    </section>
+
+    <!-- Why Choose Shiplee? -->
+    <section class="why-choose">
+        <h2>Why Choose Shiplee?</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-title" onclick="toggleAccordion(this)">
+                    Wide Network <i class="fa-sharp fa-solid fa-location-dot"></i>
+                </button>
+                <div class="accordion-content">Shiplee offers a nationwide network to help you reach customers everywhere.</div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-title" onclick="toggleAccordion(this)">
+                    Full Support <i class="fa-solid fa-headset"></i>
+                </button>
+                <div class="accordion-content">24/7 support to ensure smooth operations.</div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-title" onclick="toggleAccordion(this)">
+                    Training & Resources <i class="fa-solid fa-graduation-cap"></i>
+                </button>
+                <div class="accordion-content">Comprehensive training programs to help you get started.</div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-title" onclick="toggleAccordion(this)">
+                    High Profitability <i class="fa-solid fa-dollar-sign"></i>
+                </button>
+                <div class="accordion-content">Great revenue potential with a growing market demand.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise Benefits Table -->
+    <section class="benefits-table">
+        <h2>Franchise Benefits</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Benefit</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-headset"></i> Full Support</td>
+                    <td>24/7 support for all franchisees to ensure smooth operations.</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-sharp fa-solid fa-location-dot"></i> Nationwide Reach</td>
+                    <td>Access to Shiplee's extensive delivery network across the country.</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-graduation-cap"></i> Training & Resources</td>
+                    <td>Comprehensive training programs to help you get started.</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-dollar-sign"></i> High Profitability</td>
+                    <td>Great revenue potential with a growing market demand.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- From Anywhere to Everywhere -->
+    <section class="network-reach">
+        <h2>From Anywhere to Everywhere</h2>
+        <p>Our extensive network makes it easy to reach customers wherever they are.</p>
+        <img src="images/network-map.jpg" alt="Network Reach Map" class="network-img">
+    </section>
+
+    <!-- Partner Logos -->
+    <section class="partner-logos">
+        <h2>Our Partners</h2>
+        <div class="logos-grid">
+            <img src="images/logo1.png" alt="Partner 1" class="partner-logo">
+            <img src="images/logo2.png" alt="Partner 2" class="partner-logo">
+        </div>
+    </section>
+
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
